@@ -3,8 +3,7 @@
 
 <h1> Fundamentos de las apliaciones web </h1>
 <h2> entrega de los ejercios de la parte 0</h2>
- <p>  primer ejercicio  </p> 
- <h2> 0.4: Nuevo diagrama de nota </h2>
+<h2> 0.4: Nuevo diagrama de nota </h2>
 <pre> <code>
  
     sequenceDiagram
