@@ -4,7 +4,7 @@
 <h1> Fundamentos de las apliaciones web </h1>
 <h2> entrega de los ejercios de la parte 0</h2>
  <p>  primer ejercicio  </p> 
-<code> 
+<pre> <code>
  
     sequenceDiagram
     participant browser
@@ -31,9 +31,8 @@
     server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
     deactivate server
 
-    Note right of browser: The browser executes the callback function that renders the notes
-    
-</code>
+    Note right of browser: The browser executes the callback function that renders the note
+   </code></pre>
 
 <p> Crea un diagrama similar que describa la situación en la que el usuario crea una nueva nota en la página https://studies.cs.helsinki.fi/exampleapp/notes escribiendo algo en el campo de texto y haciendo clic en el botón Save.
 
