@@ -4,11 +4,11 @@
 <h1> Fundamentos de las apliaciones web </h1>
 <h2> entrega de los ejercios de la parte 0</h2>
  <p>  primer ejercicio  </p> 
-<p><code> 
-sequenceDiagram
+<code> 
+ 
+    sequenceDiagram
     participant browser
     participant server
-
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: HTML document
@@ -32,9 +32,8 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
-
-
-</code></p>
+    
+</code>
 
 <p> Crea un diagrama similar que describa la situación en la que el usuario crea una nueva nota en la página https://studies.cs.helsinki.fi/exampleapp/notes escribiendo algo en el campo de texto y haciendo clic en el botón Save.
 
